@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
         lettersDelay = 50,
         typeLettersDelay = 150,
         selectionDuration = 500,
-        typeAnimationDelay = selectionDuration + 900,
+        typeAnimationDelay = selectionDuration + 1200,
         revealDuration = 600,
         revealAnimationDelay = 1500;
     initHeadline();
