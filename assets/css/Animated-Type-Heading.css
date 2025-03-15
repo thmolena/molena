@@ -2,7 +2,7 @@
   display: inline-block;
   position: relative;
   text-align: left;
-  font-size: 35px;
+  font-size: 30px;
   text-shadow: 2.5px 2.5px 0.9px #0000;
   color: #ffff00;
 }
@@ -16,7 +16,7 @@
 }
 
 .blc {
-  font-size: 35px;
+  font-size: 30px;
   text-shadow: 2.5px 2.5px 0.9px #0000;
   color: #ace600;
 }
@@ -44,15 +44,15 @@
   font-weight: 600;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .cd-words-wrapper {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 600px) {
   .blc {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
