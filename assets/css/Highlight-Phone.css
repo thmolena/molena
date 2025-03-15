@@ -1,0 +1,109 @@
+.highlight-phone {
+  color: #313437;
+  background-color: #edfffc;
+  padding: 80px 30px 80px;
+  overflow: hidden;
+}
+
+@media (max-width:800px) {
+  .highlight-phone {
+    text-align: center;
+  }
+}
+
+.highlight-phone p {
+  color: #7d8285;
+}
+
+.highlight-phone h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  line-height: 2.5;
+  padding-top: 0;
+  margin-top: 0;
+  color: inherit;
+}
+
+.highlight-phone .intro {
+  font-size: 20px;
+  max-width: 1000px;
+  line-height: 1.4;
+}
+
+@media (max-width:1000px) {
+  .highlight-phone .intro {
+    max-width: none;
+  }
+}
+
+.highlight-phone .intro p {
+  margin-bottom: 15px;
+}
+
+.highlight-phone .intro .btn {
+  padding: 20px 20px;
+  border: none;
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+  opacity: 0.95;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 0.95px;
+  line-height: 1;
+}
+
+.highlight-phone .intro .btn:hover {
+  opacity: 1;
+}
+
+.highlight-phone .intro .btn:active {
+  transform: translateY(1px);
+}
+
+.highlight-phone .intro .btn-primary {
+  background-color: #0552C6;
+  color: #FFFFF0;
+}
+
+.highlight-phone .iphone-mockup {
+  position: relative;
+  max-width: 100px;
+  margin-top: -20px;
+  margin-bottom: -100px;
+  transform: rotate(-15deg);
+}
+
+.highlight-phone .iphone-mockup img.device {
+  width: 100%;
+  height: auto;
+}
+
+.highlight-phone .iphone-mockup .screen {
+  position: left;
+  width: 100%;
+  height: 100%;
+  top: 10%;
+  border-radius: 3px;
+  left: 10%;
+  border: 1px solid #44444;
+  background-color: #aaaaa;
+  overflow: hidden;
+  background: url(screen-content-iphone-6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.highlight-phone .iphone-mockup .screen:before {
+  content: '';
+  background-color: #fffff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: -12%;
+  right: -30%;
+  transform: rotate(-19deg);
+  opacity: 0.95;
+}
+
